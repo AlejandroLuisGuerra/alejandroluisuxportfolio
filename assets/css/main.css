@@ -201,6 +201,7 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		color: #000000;
+		text-align: left;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -220,6 +221,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		text-align: left;
 	}
 
 	h3 {
@@ -3417,7 +3419,7 @@ input, select, textarea {
 		display: inline-block;
 		margin: 0 0 1em 0;
 		overflow: hidden;
-		position: relative;
+		position:relative;
 		width: 4em;
 	}
 
@@ -3436,6 +3438,7 @@ input, select, textarea {
 
 		#intro .logo img {
 			display: block;
+			align-content: left;
 			margin-left: -0.25em;
 			width: 4.5em;
 		}
