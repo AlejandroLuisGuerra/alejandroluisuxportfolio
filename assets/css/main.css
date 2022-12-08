@@ -3126,10 +3126,11 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #ffebcd;
 		border-bottom: solid 1px #ffebcd;
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
+		padding-top: 0.5em;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -3167,7 +3168,7 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			border-left: solid 1px rgba(160, 160, 160, 0.3);
+			border-left: solid 0px rgba(160, 160, 160, 0.3);
 			height: inherit;
 			line-height: inherit;
 			margin-left: 1.5em;
@@ -3300,7 +3301,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 3em;
+				height: 4em;
 				line-height: 2.75em;
 			}
 
