@@ -2635,7 +2635,7 @@ input, select, textarea {
 		-webkit-flex-direction: column-reverse;
 		-ms-flex-direction: column-reverse;
 		flex-direction: column-reverse;
-		background: #d4d4d44d;
+		background: #ffebcd;
 		border: solid 0px rgb(173, 173, 173);
 		border-radius: 12px;
 		margin: 0 0 2em 0;
@@ -3006,6 +3006,7 @@ input, select, textarea {
 				margin-left: -1.5em;
 				margin-top: calc(-1.5em - 1px);
 				width: calc(100% + 3em);
+				padding: 1em;
 			}
 
 			.post > footer {
