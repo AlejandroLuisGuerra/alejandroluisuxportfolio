@@ -2738,7 +2738,8 @@ input, select, textarea {
 	.post {
 		padding: 3em 3em 1em 3em ;
 		background: #ffffff;
-		border: solid 1px rgb(173, 173, 173);
+		border-left: solid 2px #e7e7e7;
+		border-bottom: solid 2px #e7e7e7;
 		margin: 0 0 3em 0;
 		position: relative;
 	}
@@ -2748,7 +2749,7 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			border-bottom: solid 2px rgb(240, 240, 240);
+			border-bottom: solid 2px #e7e7e7;
 			left: -3em;
 			margin: -3em 0 3em 0;
 			position: relative;
@@ -2761,7 +2762,7 @@ input, select, textarea {
 				-ms-flex-grow: 1;
 				flex-grow: 1;
 				-ms-flex: 1;
-				padding: 3.75em 3em 3.3em 3em;
+				padding: 2.75em 3em 3.3em 3em;
 			}
 
 				.post > header .title h2 {
@@ -2775,7 +2776,7 @@ input, select, textarea {
 
 			.post > header .meta {
 				padding: 3.75em 3em 1.75em 3em ;
-				border-left: solid 2px rgb(240, 240, 240);
+				border-left: solid 0px #ffebcd;
 				min-width: 17em;
 				text-align: right;
 				width: 17em;
