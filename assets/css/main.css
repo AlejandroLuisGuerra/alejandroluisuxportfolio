@@ -226,6 +226,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 0.9em;
+		text-align: left;
 	}
 
 	h4 {
@@ -2374,6 +2375,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			text-align: left;
 		}
 
 		ul.alt {
