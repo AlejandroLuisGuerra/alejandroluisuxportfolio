@@ -3554,7 +3554,7 @@ input, select, textarea {
 		}
 
 			#menu > * > :last-child {
-				margin-bottom: -3em;
+				margin-bottom: -1.5em;
 			}
 
 		#menu > :first-child {
