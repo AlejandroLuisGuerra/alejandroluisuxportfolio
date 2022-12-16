@@ -1825,15 +1825,19 @@ input, select, textarea {
 
 	.blurb h2 {
 		font-size: 0.8em;
-		margin: 0 0 1.5em 0;
+		margin: 0 1.5em 0 0;
+		color: #ffebcd;
 	}
 
 	.blurb h3 {
 		font-size: 0.7em;
+		color: #ffffff;
+
 	}
 
 	.blurb p {
 		font-size: 0.9em;
+		color: #ffffff;
 	}
 
 /* Box */
@@ -2743,7 +2747,7 @@ input, select, textarea {
 	.post {
 		padding: 3em 3em 1em 3em ;
 		background: #ffffff;
-		border-left: solid 1px #d8d8d8;
+		border-left: solid 0px #d8d8d8;
 		border-bottom: solid 1px #d8d8d8;
 		margin: 0 0 3em 0;
 		position: relative;
@@ -3233,10 +3237,11 @@ input, select, textarea {
 						text-decoration: none;
 						border-bottom: 0;
 						color: #0a0a0a;
-						overflow: hidden;
+						overflow: visible;
 						position: relative;
 						text-indent: 4em;
 						width: 4em;
+						display: none;
 					}
 
 						#header .main ul li > a:before {
@@ -3250,6 +3255,7 @@ input, select, textarea {
 							text-transform: none !important;
 							font-family: 'Font Awesome 5 Free';
 							font-weight: 900;
+							
 						}
 
 						#header .main ul li > a:before {
@@ -3298,11 +3304,14 @@ input, select, textarea {
 				padding: 0 0.5em 0 0;
 			}
 
-		@media screen and (max-width: 980px) {
+
+
+			@media screen and (max-width: 980px) {
 
 			#header .links {
-				display: none;
+				display: visible;
 			}
+
 
 		}
 
@@ -3391,22 +3400,32 @@ input, select, textarea {
 /* Sidebar */
 
 	#sidebar {
-		margin-right: 3em;
+		margin-right: 1em;
 		min-width: 22em;
 		width: 22em;
+		background-color: #171717;
+		
+
 	}
 
+
+	
 		#sidebar > * {
 			border-top: solid 0px #ffebcd;
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			margin: 0 0 0 0;
+			padding: 3em 3em 3em 3em;
 		}
 
 		#sidebar > :first-child {
 			border-top: 0;
 			margin-top: 0;
-			padding-top: 0;
+			padding-top: 1.7em;
+			padding-right: 3em;
+
 		}
+
+
+
 
 		@media screen and (max-width: 1280px) {
 
@@ -3451,13 +3470,18 @@ input, select, textarea {
 			width: 4.5em;
 		}
 
-	#intro header h2 {
-		font-size: 2em;
-		font-weight: 900;
-	}
+		#intro header h2 {
+			font-size: 2em;
+			font-weight: 900;
+			color: #ffebcd;
+			padding-right: 3em;
+		}
 
 	#intro header p {
 		font-size: 0.8em;
+		color: #ffffff;
+		padding-bottom: 0em;
+
 	}
 
 	@media screen and (max-width: 1280px) {
@@ -3469,10 +3493,13 @@ input, select, textarea {
 
 			#intro header h2 {
 				font-size: 2em;
+				color: #171717;
+
 			}
 
 			#intro header p {
 				font-size: 0.7em;
+
 			}
 
 	}
@@ -3494,6 +3521,7 @@ input, select, textarea {
 
 			#intro header h2 {
 				font-size: 2em;
+				color: #171717;
 			}
 
 			#intro header > :last-child {
@@ -3615,6 +3643,8 @@ input, select, textarea {
 			transform: translateX(0);
 			visibility: visible;
 		}
+
+
 
 		@media screen and (max-width: 736px) {
 
