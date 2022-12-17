@@ -1958,7 +1958,7 @@ input, select, textarea {
 		button.large,
 		.button.large {
 			font-size: 0.83em;
-			padding-left: 3em;
+			text-align: center;
 		}
 
 		input[type="submit"].small,
