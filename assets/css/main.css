@@ -182,11 +182,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ababab !important;
+			color: #ffebcd !important;
 		}
 
 			a:hover:before {
-				color: #ababab !important;
+				color: #ffebcd !important;
 			}
 
 	strong, b {
@@ -199,7 +199,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: -1em 0 1.5em 0;
+		margin: -1em 0 0 0;
 		color: #000000;
 		text-align: left;
 	}
@@ -1902,7 +1902,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 1px #000000;
-			color: #414141 !important;
+			color: #ffebcd !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -3487,8 +3487,8 @@ input, select, textarea {
 	#intro header p {
 		font-size: 0.8em;
 		color: #171717;
-		padding-bottom: 2.5em;
-		border-bottom: solid 0.1em #131313;
+		padding-bottom: 0;
+		border-bottom: solid 0 #131313;
 
 	}
 
@@ -3507,7 +3507,7 @@ input, select, textarea {
 
 			#intro header p {
 				font-size: 0.7em;
-
+				
 			}
 
 	}
@@ -3556,6 +3556,7 @@ input, select, textarea {
 	body.single #footer {
 		text-align: center;
 	}
+
 
 /* Menu */
 
