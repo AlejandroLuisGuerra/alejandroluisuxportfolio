@@ -2379,6 +2379,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+
 	}
 
 		ul li {
@@ -3166,6 +3167,7 @@ input, select, textarea {
 			#header ul li {
 				display: inline-block;
 				padding-left: 0;
+				
 			}
 
 		#header h1 {
@@ -3496,7 +3498,7 @@ input, select, textarea {
 
 		#intro {
 			margin: 0 0 3em 0;
-			text-align: center;
+			text-align: left;
 		}
 
 			#intro header h2 {
@@ -3517,6 +3519,7 @@ input, select, textarea {
 		#intro {
 			margin: 0 0 1.5em 0;
 			padding: 1.25em 0;
+			
 		}
 
 			#intro > :last-child {
